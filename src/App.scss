@@ -5,19 +5,27 @@
   text-align: center;
 }
 
-.App-logo {
+.Header-Logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+.Header-Text {
+  font-size: 1em;
+}
+
+.Header-Text.Header-Text_small {
+  font-size: .5em;
+}
+
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
+  .Header-Logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
 
 
-.App-header {
+.Header {
   background-color: $primary-color;
   min-height: 100vh;
   display: flex;
@@ -28,7 +36,7 @@
   color: white;
 }
 
-.App-link {
+.Header-Link {
   color: $secondary-color;
 }
 
